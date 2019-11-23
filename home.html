@@ -6,7 +6,7 @@
   var xhr = new XmlTttpRequest();
   xhr.open('GET','/neteasemusic/cate.json',true);
   xhr.send();
-  xhr.onload = function(data) {
+  xhr.onload = function() {
     console.log(JSON.parse(xhr.responseText));
    }
 </script=>
